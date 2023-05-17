@@ -1,0 +1,25 @@
+.meals {
+  animation: 1s 1 alternate slidein;
+  position: relative;
+  width: 45%;
+  margin: 0 auto;
+  top: -20px;
+  min-width: 26rem;
+  max-width: 850px;
+}
+.meals ul {
+  padding: 0;
+  margin: 0;
+}
+
+@keyframes slidein {
+  from {
+    opacity: 0;
+    top: 50px;
+  }
+
+  to {
+    opacity: 1;
+    top: -20px;
+  }
+}

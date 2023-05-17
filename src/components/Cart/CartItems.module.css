@@ -1,0 +1,10 @@
+.cartItems {
+  padding: 10px;
+  overflow: auto;
+  overflow-x: hidden;
+  max-height: 20rem;
+}
+.cartItems ul {
+  padding: 0;
+  margin: 0;
+}
